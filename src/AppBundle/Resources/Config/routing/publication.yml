@@ -1,0 +1,4 @@
+
+home_publication:
+  path: /home
+  default: { _controller: AppBundler:Publication:index }
