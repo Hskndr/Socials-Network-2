@@ -14,25 +14,30 @@
     {% block javascript %} <!--javascript--> {% endblock %}
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 
-<header>
-    <h1>
-        Social Network
-    </h1>
+<header class="container border">
+    <h1>the headers</h1>
+    <a class="navbar-brand" href="{{ path("app_homepage") }}">La femme home page</a>
+    <a href="{{ path("login") }}">Login</a>
+    <a href="{{ path("login") }}">Sign Up</a>
 </header>
 
 <section id="content">
-    {% block content %} content default {% endblock %}
+    {% block content %}
+        content default  {% endblock %}
 
 </section>
 
-<footer>
+<footer class="col-lg-12">
     <hr>
-    <p>Hiskander Aguillon Web Developer</p>
+    <div class="container">
+        <p>Hiskander Aguillon Web Developer</p>
+    </div>
+
 </footer>
 </body>
 </html>

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f5e97a8-cd9d-4854-9a4f-4049bddfd571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Layouts/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Layouts/layout.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Layouts/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="442">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/UserController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/User/login.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Layouts/layout.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
       </list>
     </option>
   </component>
@@ -166,9 +177,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="908" />
+    <option name="x" value="745" />
     <option name="y" value="23" />
-    <option name="width" value="529" />
+    <option name="width" value="692" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -184,6 +195,23 @@
             <path>
               <item name="curso-social-network2" type="b2602c69:ProjectViewProjectNode" />
               <item name="curso-social-network2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curso-social-network2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso-social-network2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curso-social-network2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso-social-network2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curso-social-network2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curso-social-network2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="curso-social-network2" type="b2602c69:ProjectViewProjectNode" />
@@ -310,24 +338,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562685429369</updated>
-      <workItem from="1562685430586" duration="11441000" />
+      <workItem from="1562685430586" duration="15207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11441000" />
+    <option name="totallyTimeSpent" value="15207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="908" y="23" width="529" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="745" y="23" width="692" height="810" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.7330595" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.7323077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.24643874" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.22792023" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.36894587" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -553,8 +580,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Layouts/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="442">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
