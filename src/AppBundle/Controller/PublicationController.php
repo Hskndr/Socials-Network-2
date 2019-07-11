@@ -1,4 +1,5 @@
 <?php
+
 namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -8,10 +9,10 @@ use Symfony\Component\HttpFoundation\Request;
 class PublicationController extends Controller
 {
 
-    public function indexAction (Request $request) {
+    public function indexAction(Request $request)
+    {
 
-        echo "Action index publication";
-        die();
+        return $this->render('AppBundle:Publication:home.html.twig');
     }
 
 }

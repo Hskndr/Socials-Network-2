@@ -10,17 +10,24 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\Session;
 
+
 class UserController extends Controller
 {
-    /*private $session;
+    private $session;
 
     public function __construct()
     {
         $this->session = new Session();
-    }*/
+
+    }
 
     public function loginAction(Request $request)
     {
+        if (is_object($this->getUser())){
+            return $this->redirect('home');
+        }
+
+
         $authenticationUtils = $this->get('security.authentication_utils');
         $error = $authenticationUtils->getLastAuthenticationError();
         $lastUsername = $authenticationUtils->getLastUsername();
@@ -65,7 +72,7 @@ class UserController extends Controller
                     if ($flush == null) {
                         $status = "Register Successfully";
 
-                        /* $this->session->getFlashBag()->add("status", $status);*/
+                        $this->session->getFlashBag()->add("status", $status);
 
                         return $this->redirect("login");
                     } else {
@@ -79,7 +86,8 @@ class UserController extends Controller
             } else {
                 $status = " Not Register ";
             }
-            /*$this->session->getFlashBag()->add("status", $status);*/
+            $this->session->getFlashBag()->add("status", $status);
+
         }
 
         return $this->render('AppBundle:User:register.html.twig', array(

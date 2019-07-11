@@ -3,7 +3,7 @@ app_user:
   prefix: /
 
 app_publication:
-  resource: "@AppBundle/Resources/config/routing/user.yml"
+  resource: "@AppBundle/Resources/config/routing/publication.yml"
   prefix: /
 
 app_homepage:
